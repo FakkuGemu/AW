@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Weaboo</title>
+</head>
+<body>
+<section>
+    <header>
+        <span id="logo">WEABOO</span>Ankieta
+    </header>
+    <nav>
+        <ol>
+            <li><a href="main.html">O mnie</a></li>
+            <li>Hobby
+                <ul>
+                    <li><a href="Hobby.html">Historia</a></li>
+                    <li><a href="top_lista.html">Top lista</a></li>
+                </ul>
+            </li>
+            <li><a href="ankieta.html">Ankieta</a></li>
+            <li class="active"><a href="galeria.html">Galeria</a></li>
+        </ol>
+    </nav>
+    <article>
+        <form method="post">
+            <h3>Informacje personalne:</h3>
+            <p>Imię: <input type="text" name="imie"> </p>
+            <p>Wiek: <input type="text" name="wiek"> </p>
+            <p>Płeć:
+                Kobieta<input type="radio" name="plec" id="kobieta" value="kobieta" checked>
+                Mężczyzna<input type="radio" name="plec" id="mężczyzna" value="mezczyzna"> </p>
+            <p>Wykształcenie:
+                <select name="wyksztalcenie">
+                    <option value="podstawowe">Podstawowe</option>
+                    <option value="srednie">Średnie</option>
+                    <option value="zawodowe">Zawodowe</option>
+                    <option value="wyzsze">Wyższe</option>
+                </select>
+            </p>
+            <h3>Ankieta dotycząca strony:</h3>
+            <p>Ogólne odczucia:
+                <select name="odczucia">
+                    <option value="okropne">Okropne</option>
+                    <option value="slabe">Słabe</option>
+                    <option value="nijakie">Nijakie</option>
+                    <option value="dobre">Dobre</option>
+                    <option value="wysmienite">Wyśmienite</option>
+                </select>
+            </p>
+            <p><textarea rows="4" cols="30">Tutaj można wpisywać uwagi dotyczące strony:
+            </textarea>
+            </p>
+            <p>Akceptuję regulamin strony: <input type="checkbox" name="regulamin" value="akceptuje"></p>
+            <p>
+                <input type="submit" value="Wyślij">
+                <input type="reset" value="Wyczyść">
+            </p>
+        </form>
+    </article>
+
+</section>
+<footer>
+    <a class="mailto" href="mailto:jan.debil@gmail.com"><i class="demo-icon icon-mail"></i> jan.debil@gmail.com </a><a href="#"><i class="demo-icon icon-angle-circled-up"></i></a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+
+.icon-mail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-angle-circled-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf139;&nbsp;'); }
